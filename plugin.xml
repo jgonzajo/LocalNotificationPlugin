@@ -48,8 +48,6 @@
     <!-- ios -->
     <platform name="ios">
 
-    <hook type="before_compile" src="hooks/edit_build_json.js" />
-
         <config-file target="config.xml" parent="/*">
             <feature name="LocalNotification">
                 <param name="ios-package" value="APPLocalNotification" onload="true" />
